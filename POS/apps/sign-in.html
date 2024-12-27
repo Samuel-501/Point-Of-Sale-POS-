@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!-- link to bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/sign-in.css">
+</head>
+<body>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------ main container section start --------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------->
+            <div class="container row shadow rounded-2 section-main mb-5" style="display: flex; justify-content: center;">
+                <div class="col">    
+             <!-- header start -->
+             <div class="row">
+                <div class="col">
+                    <p class="fs-1 fw-bold" style="color: #7655FA; margin-top: 30px;" name="sign in">Sign In</p>
+                    <p class="fs-2 text-center" style="font-style: italic;" name="welcome">Welcome Back to your account. <br>Sign in to Explore More</p>
+                </div>
+             </div><!-- header end -->
+                    <!------------------------------------------------------------------------------------------------------------------------------------------------------ image container section start ----------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------->
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="img/3d cartoon office image" width="100%" name="img">
+                </div>
+            <!-- image container section end -->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------ form container section start ----------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------->
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <form action="#" class="mt-5 form-section">
+                    <!-- email start -->
+                    <div class="row">
+                        <div class="col form-floating mb-3">
+                            <input type="text" class="form-control" id="floatName" placeholder="Email" name="email">
+                            <label for="floatName">Email</label>
+                        </div>
+                    </div><!-- email end -->
+                    <!-- Password start -->
+                    <div class="row">
+                        <div class="col form-floating mb-3">
+                            <input type="password" class="form-control" id="floatName" placeholder="Password" name="pwd">
+                            <label for="floatName">Password</label>
+                        </div>
+                    </div><!-- Password end -->
+                    <!-- further password start -->
+                    <div class="row mt-5 retrieve">
+                        <!-- Remember me -->
+                        <div class="col-lg-6 col-md-6 col-sm-12 remember">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Remember Me</label>
+                        </div>
+                   <!-- Remember me end --> 
+                    <!-- forgot password -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 forgot">
+                        <a href="#">Forgot Password</a>
+                    </div><!-- forgot password end -->
+                     </div><!-- further password end -->
+                    <!-- no account -->
+                    <div class="row">
+                        <div class="col mt-4">
+                            <p class="fs-5 create-account-link" name="no-acc">Don't have and account? <span><a href="sign-up.html" class="fs-4">Create Account</a></span></p>
+                        </div>
+                    </div><!-- no account end -->
+                    <!-- login button -->
+                    <div class="row">
+                        <div class="col">
+                            <a href="#" style="background: black; color: white; margin-left: 80px;" class="btn rounded-pill fs-4 w-50">Login</a>
+                        </div>
+                    </div><!-- login button end -->
+                    <!-- alternative login -->
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-4 mt-5" name="alt">Or login with:</p>
+                            <div class="row alt-login">
+                                <!-- facebook icon -->
+                                 <div class="facebook-icon"><a href="https://web.facebook.com/?_rdc=1&_rdr#"><img src="img/facebook icon" width="50%" name="img"></a></div>
+                                <!-- facebook icon end-->
+                                 <!-- google icon -->
+                                 <div class="google-icon"><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AeZLP9-KctuJ0xB05IZBdqVFIdtN_KFKjBLUyZT8tIfgncyB5XrVbiDoYcbnBbC8IGevkOeI74aUnQ&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1624701840%3A1734398202596505&ddm=1"><img src="img/google icon" width="50%" name="img"></a></div>
+                                <!-- google icon end-->
+                                 <!-- twitter icon -->
+                                 <div class="twitter-icon"><a href="https://x.com/?mx=2"><img src="img/twitter icon" width="50%" class="shadow-3" name="img"></a></div>
+                                <!-- twitter icon end-->
+                            </div>
+                        </div>
+                    </div><!-- alternative login end -->
+                </form>
+            </div>
+            <!-- form section section end -->
+                </div>
+                </div>
+            </div><!-- main container section end -->
+    <!-- link to bootstrap js -->
+     <script src="js/bootstrap.js"></script>
+     <script src="js/bootstrapPopper.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configure System</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/multi-step.css">
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/bootstrapPopper.js" defer></script>
+    <script src="js/multi-step.js" defer></script>
+</head>
+<body>
+    <form action="#" class="rounded-2 w-50">
+        <p class="display-5 fw-bold text-center">Configuration Form</p>
+        <!-- Progressbar -->
+          <div class="progressbar">
+            <div class="progress" id="progress"></div>
+            <div class="progress-step active" data-title="Info"></div>
+            <div class="progress-step" data-title="Details"></div>
+            <div class="progress-step" data-title="Products"></div>
+            <div class="progress-step" data-title="Review"></div>
+          </div>
+
+        <!-- Steps -->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------- main container section start ----------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------- form section start ----------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------->
+
+<!-- --------------------------------------------------- Form 1 start ----------------------------------------- -->
+
+           <div class="form-step active">
+            <!-- Business Name start -->
+            <div class="input-class fs-5">
+                <label for="b-name" class="mb-2">Business Name:</label>
+                <input type="text" name="b-name" id="b-name" class="form-control border-dark" required>
+            </div><!-- Business Name end -->
+             <!-- Business Tel start -->
+            <div class="input-class fs-5">
+                <label for="b-tel" class="mb-2">Business Tel:</label>
+                <input type="tel" name="b-tel" id="b-tel" class="form-control border-dark" required>
+            </div><!-- Business Tel end -->
+             <!-- Business logo start -->
+             <div class="input-class fs-5">
+                <label for="b-logo" class="mb-2">Business Logo:</label>
+                <input type="file" name="b-logo" id="b-logo" class="form-control border-dark" required>
+            </div><!-- Business logo end -->
+            <!-- Business location start -->
+            <div class="input-class fs-5">
+                <label for="b-location" class="mb-2">Business Location:</label>
+                <input type="text" name="b-location" id="b-location" class="form-control border-dark" required>
+            </div><!-- Business location end -->
+            <!-- NextButton1 start -->
+            <div class="">
+                <a href="#" class="btn butn w-50 ms-auto btn-next">Next</a>
+            </div><!-- NextButton1 start -->
+           </div><!-- Form 1 end -->
+
+    <!-- --------------------------------------------------- Form 2 start ----------------------------------------- -->
+
+           <div class="form-step">
+            <!-- Number of Employees start -->
+            <div class="input-class">
+                <label for="employee-num" class="fs-5 mb-2">Number of Employees:</label>
+                <input type="number" name="employee-num" id="employee-num" class="form-control border-dark">
+            </div><!-- Number of Employees end -->
+            <!-- Working Hours start -->
+            <div class="input-class">
+                <label for="working-hrs" class="fs-5 mb-2">Working Hours:</label>
+                <input type="number" name="working-hrs" id="working-hrs" class="form-control border-dark">
+            </div><!-- Working Hours end -->
+             <!-- Payment Method start -->
+             <div class="row border-dark" id="payment-method">
+                <p class="fs-5">Payment Method:</p>
+                <div class="col-4">
+                <input type="checkbox" name="cash-1" id="cash-1">
+                <label for="cash-1">Cash</label>
+            </div>
+            <div class="col-4">
+                <input type="checkbox" name="online" id="online">
+                <label for="online">Momo</label>
+                    </div>
+            <div class="col-4">
+                <input type="checkbox" name="In-Store" id="In-Store">
+                <label for="In-Store">ATM</label>
+            </div>
+            </div><br><!-- Payment Method end -->
+            <!-- Sale Type start -->
+            <div class="row border-dark" id="sale-type">
+                <p class="fs-5">Sale Type:</p>
+                <div class="col-4">
+                <input type="checkbox" name="cash-2" id="cash-2">
+                <label for="cash-2">Cash</label>
+            </div>
+            <div class="col-4">
+                <input type="checkbox" name="online" id="online">
+                <label for="online">Online</label>
+                    </div>
+            <div class="col-4">
+                <input type="checkbox" name="In-Store" id="In-Store">
+                <label for="In-Store">In-Store</label>
+            </div>
+            </div><br><!-- Sale Type end -->
+            <!-- NextButton2 start -->
+            <div class="btns-group">
+                <a href="#" class="btn butn btn-prev">Previous</a>
+                <a href="#" class="btn butn btn-next">Next</a>
+            </div><!-- NextButton2 start -->
+           </div><!-- Form 2 end -->
+
+<!-- --------------------------------------------------- Form 3 start ----------------------------------------- -->
+
+           <div class="form-step">
+             <!-- Number of Employees start -->
+             <div class="input-class">
+                <label for="employee-num" class="fs-5 mb-2">Number of Employees:</label>
+                <input type="number" name="employee-num" id="employee-num" class="form-control border-dark">
+            </div><!-- Number of Employees end -->
+            <!-- Working Hours start -->
+            <div class="input-class">
+                <label for="working-hrs" class="fs-5 mb-2">Working Hours:</label>
+                <input type="number" name="working-hrs" id="working-hrs" class="form-control border-dark">
+            </div><!-- Working Hours end -->
+            <!-- NextButton3 start -->
+            <div class="btns-group">
+                <a href="#" class="btn butn btn-prev">Previous</a>
+                <a href="#" class="btn butn btn-next">Next</a>
+            </div><!-- NextButton3 start -->
+           </div><!-- Form 3 end -->
+
+<!-- --------------------------------------------------- Form 4 start ----------------------------------------- -->
+          
+<div class="form-step">
+            <!-- First Name start -->
+            <div class="input-class">
+                <label for="password" class="fs-5 mb-2">Password</label>
+                <input type="password" name="pwd" id="password" class="form-control border-dark">
+            </div><!-- First Name end -->
+             <!-- Confirm Password start -->
+            <div class="input-class">
+                <label for="c-pwd" class="fs-5 mb-2">Confirm Password</label>
+                <input type="password" name="c-pwd" id="c-pwd" class="form-control border-dark">
+            </div><!-- Confirm Password end -->
+            <!-- NextButton4 start -->
+            <div class="btns-group">
+                <a href="#" class="btn butn btn-prev">Previous</a>
+                <input type="submit" value="Submit" class="butn rounded-2">
+            </div><!-- NextButton4 start -->
+           </div><!-- Form 4 end -->
+          <!-- --------------------------------------form section end--------------------------------------------- -->
+<!-- -------------------------------------main container section end ------------------------------------------------->
+ </form>
+</body>
+</html>
